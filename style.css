@@ -1,0 +1,63 @@
+*{
+    margin: 0; padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(213, 213, 222);
+}
+
+.div {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: darkblue;
+    text-align: center;  
+    padding-bottom: 1rem;  
+}
+
+.pool {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+button {
+    margin: 2rem;
+    padding: 1rem 2.5rem;
+    border-radius: 1.4rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: darkblue;
+    background: rgb(213, 213, 222);
+    box-shadow: 0 .2rem .2rem darkblue;
+}
+
+button:hover {
+    box-shadow: 0.3rem -.3rem  1rem rgba(0, 0, 0,.5);
+}
+
+.water {
+    box-sizing: border-box;
+    width: 500px;
+    height: 50px;
+    background: blue;
+}
+
+.total {
+    color: darkblue;
+    font-size: 1.6rem;
+}
+
+.full_pool {
+    color: rgb(207, 0, 0);
+}
+
